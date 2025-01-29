@@ -69,3 +69,7 @@ body {
 .hpre {
     margin-top: 15px;
 }
+
+h1 {
+    margin-left: 0;
+}
