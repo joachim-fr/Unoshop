@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="Style/Order.css">
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/html2pdf.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <link href="https://db.onlinewebfonts.com/c/26c5460da831013be63f75ef7b0f81d5?family=CCMetconScaled+W00+Regular" rel="stylesheet"> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,7 +73,11 @@
                 </div>
             </div>
             <div class="pdf" id="pdf">
-                <h1 class="viollet">Résumé de votre demande</h1>
+                <p class="logo"style="text-decoration: none;"><h1 class="logo" style="margin-top: 0; color: #131921;">UNO<span class="viollet">SHOP</span></h1></p>
+                <p style="font-weight: bolder; font-size: 15px; margin-top: 30px;">Merci pour votre demande de devis !</p>
+                <p>Merci d'avoir soumis votre demande. Nous avons bien reçu votre formulaire et allons étudier attentivement votre projet.
+                     Un de nos conseillers vous contactera prochainement pour discuter de vos besoins spécifiques et vous présenter une offre personnalisée.</p>
+                <p style="font-weight: bolder; font-size: 15px;" class="viollet">Voici un résumé de votre demande :</p>
                 <p>Nom: <span style="font-weight: bolder;" id="nom"></span></p>
                 <p>Prénom: <span style="font-weight: bolder;" id="prenom"></span></p>
                 <p>Email: <span style="font-weight: bolder;" id="mail"></span></p>
