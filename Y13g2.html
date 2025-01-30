@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Unoshop - Y13 GEN 2</title>
-        <link rel="stylesheet" href="Style/DA_main.css">
-        <link rel="stylesheet" href="Style/ClassicProduct.css">
+        <link rel="stylesheet" id="DAcss" href="Style/DA_main.css">
+        <link rel="stylesheet" id="css" href="Style/ClassicProduct.css">
         <script src="js/jquery-3.4.1.min.js"></script>
         <link href="https://db.onlinewebfonts.com/c/26c5460da831013be63f75ef7b0f81d5?family=CCMetconScaled+W00+Regular" rel="stylesheet"> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,82 +13,147 @@
         <link rel="icon" type="image/vnd.icon" href="Images/Logo.ico">
     </head>
     <body>
-        <div class="header">
-            <a class="logo" href="index.html" style="text-decoration: none;"><h1 class="logo" style="margin-top: 0;">UNO<span class="viollet">SHOP</span></h1></a>
-            <div class="nav">
-                <a class="navitem" href="Y14.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;">Y14 <span class="viollet">PLUS</span></h4></a>
-                <a class="navitem" href="Y13g2.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;"><span class="viollet">Y13</span> GEN 2</h4></a>
-                <a class="navitem" href="Y13g1.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;"><span class="viollet">Y13</span> GEN 1</h4></a>
-                <a class="navitem" href="Y11.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;">Hybride <span class="viollet">Y11</span> 360°</h4></a>
-                <a class="navitem" href="Y10P.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;"><span class="viollet">Y10</span> PREMIUM</h4></a>
-            </div>  
-            <a class="abouton" href="Order.html">Demander un devis</a>  
-        </div>
-        <div class="flex-container">
-            <div class="text-content">
-                <h1 class="h1h">UNOWHY <span class="viollet">Y13</span> GEN 2</h1>
-                <p><span class="viollet">Le Y13 Gen 2, l'équilibre parfait entre performance et durabilité.</span> Léger, élégant et robuste, il accompagne les étudiants dans toutes leurs activités. Son écran tactile haute résolution et son clavier confortable offrent une expérience utilisateur optimale.
-                     De plus, sa conception modulaire et l'utilisation de matériaux recyclés en font un choix responsable pour l'environnement.</p>
+        <div id="PCUI">
+            <div class="header">
+                <a class="logo" href="index.html" style="text-decoration: none;"><h1 class="logo" style="margin-top: 0;">UNO<span class="viollet">SHOP</span></h1></a>
+                <div class="nav">
+                    <a class="navitem" href="Y14.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;">Y14 <span class="viollet">PLUS</span></h4></a>
+                    <a class="navitem" href="Y13g2.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;"><span class="viollet">Y13</span> GEN 2</h4></a>
+                    <a class="navitem" href="Y13g1.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;"><span class="viollet">Y13</span> GEN 1</h4></a>
+                    <a class="navitem" href="Y11.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;">Hybride <span class="viollet">Y11</span> 360°</h4></a>
+                    <a class="navitem" href="Y10P.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;"><span class="viollet">Y10</span> PREMIUM</h4></a>
+                </div>  
+                <a class="abouton" href="Order.html">Demander un devis</a>  
             </div>
-            <video class="vid" autoplay loop muted>
-                <source src="Vidéos/Y13g2.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div style="display: flex; background-color: #e8e8e8; margin-top: 50px;">
-            <div class="box">
-                <div class="onglets">
-                    <a class="abouton btn" href="">Performance</a>
-                    <a class="abouton btn" href="">Pédagogie</a>
-                    <a class="abouton btn" href="" style="background-color: green; outline-color: green;">Environnement</a>
+            <div class="flex-container">
+                <div class="text-content">
+                    <h1 class="h1h">UNOWHY <span class="viollet">Y13</span> GEN 2</h1>
+                    <p><span class="viollet">Le Y13 Gen 2, l'équilibre parfait entre performance et durabilité.</span> Léger, élégant et robuste, il accompagne les étudiants dans toutes leurs activités. Son écran tactile haute résolution et son clavier confortable offrent une expérience utilisateur optimale.
+                        De plus, sa conception modulaire et l'utilisation de matériaux recyclés en font un choix responsable pour l'environnement.</p>
                 </div>
-
-                <div id="contents">
-                    <div class="content presentation">
-                        <h1 class="viollet">Performance</h1>
-                        <p>Léger, puissant et polyvalent, l'Y13 Gen 2 est le compagnon idéal pour les étudiants et les professionnels.
-                             Son processeur Intel Celeron N6000, couplé à 8 Go de RAM extensible,
-                              garantit des performances fluides pour toutes vos tâches quotidiennes.
-                               Que ce soit pour travailler sur des documents,
-                             regarder des vidéos ou naviguer sur internet, l'Y13 Gen 2 répondra à toutes vos attentes.</p>
+                <video class="vid" autoplay loop muted>
+                    <source src="Vidéos/Y13g2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div style="display: flex; background-color: #e8e8e8; margin-top: 50px;">
+                <div class="box">
+                    <div class="onglets">
+                        <a class="abouton btn" href="">Performance</a>
+                        <a class="abouton btn" href="">Pédagogie</a>
+                        <a class="abouton btn" href="" style="background-color: green; outline-color: green;">Environnement</a>
                     </div>
 
-                    <div class="content presentation">
-                        <h1 class="viollet">Pédagogie</h1>
-                        <p>Un outil pédagogique complet et durable. L'Y13 Gen 2 est conçu pour faciliter l'apprentissage.
-                             Son écran Full HD offre une qualité d'image exceptionnelle, tandis que son clavier ergonomique assure un confort d'utilisation optimal. De plus, sa grande autonomie vous permet de travailler plusieurs heures sans interruption.
-                             Grâce à sa conception modulaire, l'Y13 Gen 2 peut évoluer avec les besoins de vos élèves.</p>
+                    <div id="contents">
+                        <div class="content presentation">
+                            <h1 class="viollet">Performance</h1>
+                            <p>Léger, puissant et polyvalent, l'Y13 Gen 2 est le compagnon idéal pour les étudiants et les professionnels.
+                                Son processeur Intel Celeron N6000, couplé à 8 Go de RAM extensible,
+                                garantit des performances fluides pour toutes vos tâches quotidiennes.
+                                Que ce soit pour travailler sur des documents,
+                                regarder des vidéos ou naviguer sur internet, l'Y13 Gen 2 répondra à toutes vos attentes.</p>
+                        </div>
+
+                        <div class="content presentation">
+                            <h1 class="viollet">Pédagogie</h1>
+                            <p>Un outil pédagogique complet et durable. L'Y13 Gen 2 est conçu pour faciliter l'apprentissage.
+                                Son écran Full HD offre une qualité d'image exceptionnelle, tandis que son clavier ergonomique assure un confort d'utilisation optimal. De plus, sa grande autonomie vous permet de travailler plusieurs heures sans interruption.
+                                Grâce à sa conception modulaire, l'Y13 Gen 2 peut évoluer avec les besoins de vos élèves.</p>
+                        </div>
+
+                        <div class="content presentation">
+                            <h1 style="color: green;">Environnement</h1>
+                            <p>Réparer son ordinateur, c'est facile avec l'Y13 Gen 2. Grâce à un simple tournevis et à un tutoriel vidéo,
+                                vous pouvez facilement remplacer la mémoire vive, le stockage ou la batterie.
+                                Cette modularité vous permet d'adapter votre ordinateur à vos besoins évolutifs et de prolonger sa durée de vie.
+                                C'est une solution économique et écologique qui s'inscrit dans une démarche de consommation responsable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="presentation" style="margin-top: 82px;">
+                        <h1><span style="color: rgb(6, 199, 6);">Y</span><span class="viollet">planet</span> : Notre engagement</h1>
+                        <p>Avec l'engagement Yplanet, UNOWHY révolutionne le monde de l'éducation en proposant des appareils durables et évolutifs. La gamme Y incarne parfaitement cette philosophie,
+                            alliant performance, durabilité et design. Grâce à leur conception modulaire et à l'utilisation de matériaux nobles, ces produits sont conçus pour durer dans le temps et
+                            s'adapter aux besoins changeants des utilisateurs. En choisissant un appareil Y,
+                            vous faites le choix d'un produit responsable, qui s'inscrit dans une démarche contribue à préserver notre environnement.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="order">
+                <h1><span class="viollet">Équipez</span> votre établissement d'une flotte d'ordinateurs <span class="viollet">Y</span></h1>
+                <p style="margin-bottom: 30px;">Investissez dans l'avenir de vos élèves en équipant votre établissement d'une flotte d'ordinateurs Y. Grâce à notre expertise et à notre large gamme de produits,
+                    nous vous proposons une solution sur mesure, adaptée à vos besoins spécifiques et à votre budget. Notre équipe d'experts pédagogiques vous accompagne à chaque étape du projet,
+                    de la configuration des appareils à la formation des enseignants. De plus, bénéficiez d'un service après-vente de qualité pour assurer la pérennité de votre investissement.
+                    Remplissez notre formulaire en ligne pour obtenir un devis personnalisé et découvrir toutes les possibilités offertes par la gamme Y.</p>
+                <a class="abouton" style="margin-bottom: 2.5%; margin-right: 2.5%; display: block; text-align: center;" href="Order.html">En savoir plus →</a>
+            </div>
+            <div class="footer">
+                <p>Made with ❤️ by JL</p>
+            </div>
+        </div>
+        <div id="MobileUI">
+            <div class="header">
+                <a class="logo" href="index.html" style="text-decoration: none;"><h1 class="logo" style="margin-top: 0; margin-bottom: 0;">UNO<span class="viollet">SHOP</span></h1></a>
+            </div>
+            <div class="flex-container">
+                <div class="text-content">
+                    <h1 class="h1h" style="margin-top: 165px;">UNOWHY <span class="viollet">Y13</span> GEN 2</h1>
+                    <p><span class="viollet">Le Y13 Gen 2, l'équilibre parfait entre performance et durabilité.</span> Léger, élégant et robuste, il accompagne les étudiants dans toutes leurs activités. Son écran tactile haute résolution et son clavier confortable offrent une expérience utilisateur optimale.
+                        De plus, sa conception modulaire et l'utilisation de matériaux recyclés en font un choix responsable pour l'environnement.</p>
+                </div>
+                <video class="vid" autoplay loop muted>
+                    <source src="Vidéos/Y13g2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div style="display: flex; flex-direction: column; background-color: #e8e8e8; margin-top: 50px;">
+                <div class="box">
+                    <div class="onglets">
+                        <a class="abouton btn" href="">Performance</a>
+                        <a class="abouton btn" href="">Pédagogie</a>
+                        <a class="abouton btn" href="" style="background-color: green; outline-color: green;">Environnement</a>
                     </div>
 
-                    <div class="content presentation">
-                        <h1 style="color: green;">Environnement</h1>
-                        <p>Réparer son ordinateur, c'est facile avec l'Y13 Gen 2. Grâce à un simple tournevis et à un tutoriel vidéo,
-                             vous pouvez facilement remplacer la mémoire vive, le stockage ou la batterie.
-                              Cette modularité vous permet d'adapter votre ordinateur à vos besoins évolutifs et de prolonger sa durée de vie.
-                             C'est une solution économique et écologique qui s'inscrit dans une démarche de consommation responsable.</p>
+                    <div id="contents">
+                        <div class="content presentation">
+                            <h1 class="viollet">Performance</h1>
+                            <p>Léger, puissant et polyvalent, l'Y13 Gen 2 est le compagnon idéal pour les étudiants et les professionnels.
+                                Son processeur Intel Celeron N6000, couplé à 8 Go de RAM extensible,
+                                garantit des performances fluides pour toutes vos tâches quotidiennes.
+                                Que ce soit pour travailler sur des documents,
+                                regarder des vidéos ou naviguer sur internet, l'Y13 Gen 2 répondra à toutes vos attentes.</p>
+                        </div>
+
+                        <div class="content presentation">
+                            <h1 class="viollet">Pédagogie</h1>
+                            <p>Un outil pédagogique complet et durable. L'Y13 Gen 2 est conçu pour faciliter l'apprentissage.
+                                Son écran Full HD offre une qualité d'image exceptionnelle, tandis que son clavier ergonomique assure un confort d'utilisation optimal. De plus, sa grande autonomie vous permet de travailler plusieurs heures sans interruption.
+                                Grâce à sa conception modulaire, l'Y13 Gen 2 peut évoluer avec les besoins de vos élèves.</p>
+                        </div>
+
+                        <div class="content presentation">
+                            <h1 style="color: green;">Environnement</h1>
+                            <p>Réparer son ordinateur, c'est facile avec l'Y13 Gen 2. Grâce à un simple tournevis et à un tutoriel vidéo,
+                                vous pouvez facilement remplacer la mémoire vive, le stockage ou la batterie.
+                                Cette modularité vous permet d'adapter votre ordinateur à vos besoins évolutifs et de prolonger sa durée de vie.
+                                C'est une solution économique et écologique qui s'inscrit dans une démarche de consommation responsable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="presentation" style="margin-top: 40px;">
+                        <h1><span style="color: rgb(6, 199, 6);">Y</span><span class="viollet">planet</span> : Notre engagement</h1>
+                        <p>Avec l'engagement Yplanet, UNOWHY révolutionne le monde de l'éducation en proposant des appareils durables et évolutifs. La gamme Y incarne parfaitement cette philosophie,
+                            alliant performance, durabilité et design. Grâce à leur conception modulaire et à l'utilisation de matériaux nobles, ces produits sont conçus pour durer dans le temps et
+                            s'adapter aux besoins changeants des utilisateurs. En choisissant un appareil Y,
+                            vous faites le choix d'un produit responsable, qui s'inscrit dans une démarche contribue à préserver notre environnement.</p>
                     </div>
                 </div>
             </div>
-            <div class="box">
-                <div class="presentation" style="margin-top: 82px;">
-                    <h1><span style="color: rgb(6, 199, 6);">Y</span><span class="viollet">planet</span> : Notre engagement</h1>
-                    <p>Avec l'engagement Yplanet, UNOWHY révolutionne le monde de l'éducation en proposant des appareils durables et évolutifs. La gamme Y incarne parfaitement cette philosophie,
-                        alliant performance, durabilité et design. Grâce à leur conception modulaire et à l'utilisation de matériaux nobles, ces produits sont conçus pour durer dans le temps et
-                        s'adapter aux besoins changeants des utilisateurs. En choisissant un appareil Y,
-                        vous faites le choix d'un produit responsable, qui s'inscrit dans une démarche contribue à préserver notre environnement.</p>
-                </div>
+            <div class="footer">
+                <p>Made with ❤️ by JL</p>
             </div>
-        </div>
-        <div class="order">
-            <h1><span class="viollet">Équipez</span> votre établissement d'une flotte d'ordinateurs <span class="viollet">Y</span></h1>
-            <p style="margin-bottom: 30px;">Investissez dans l'avenir de vos élèves en équipant votre établissement d'une flotte d'ordinateurs Y. Grâce à notre expertise et à notre large gamme de produits,
-                 nous vous proposons une solution sur mesure, adaptée à vos besoins spécifiques et à votre budget. Notre équipe d'experts pédagogiques vous accompagne à chaque étape du projet,
-                  de la configuration des appareils à la formation des enseignants. De plus, bénéficiez d'un service après-vente de qualité pour assurer la pérennité de votre investissement.
-                 Remplissez notre formulaire en ligne pour obtenir un devis personnalisé et découvrir toutes les possibilités offertes par la gamme Y.</p>
-            <a class="abouton" style="margin-bottom: 2.5%; margin-right: 2.5%; display: block; text-align: center;" href="Order.html">En savoir plus →</a>
-        </div>
-        <div class="footer">
-            <p>Made with ❤️ by JL</p>
         </div>
     </body>
     <script src="js/Onglet.js"></script>
+    <script src="js/Mobileresponsive.js"></script>
 </html>
