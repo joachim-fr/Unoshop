@@ -83,6 +83,7 @@ body {
 
 
 .abouton {
+    transition: all 0.1s;
     margin-left: 2.5%;
     background: #ca0a32;
     border-radius: 1000px;
@@ -91,6 +92,12 @@ body {
     display: inline-block;
     text-align: center; 
     text-decoration:none;
+    outline: #ca0a32 solid 0px;
+}
+
+.active , .abouton:hover {
+    outline: #ca0a32 solid 2px;
+    outline-offset: 2px;
 }
 
 .header .abouton{
@@ -101,11 +108,6 @@ body {
     margin-left: auto;
     margin-bottom: 0;
     white-space: nowrap;
-}
-
-.active , .abouton:hover {
-    outline: #ca0a32 solid 2px;
-    outline-offset: 2px;
 }
 
 .order {
